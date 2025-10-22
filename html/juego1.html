@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego 1</title>
+  <link rel="stylesheet" href="../css/estilosGenerales.css">
+  <link rel="stylesheet" href="../css/estilosJuego1.css">
+  <script src="js/logicaJuego1.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Juego 1</h1>
+  </header>
+  <main>
+    <p>El juego consiste en adivinar una secuencia de colores establecidos. Cada vez que se falle, se deberá comenzar desde el principio.</p>
+
+    <div class="botones-colores">
+      <div id="rojo" class="boton-color" onclick="verificarColor('rojo')"></div>
+      <div id="verde" class="boton-color" onclick="verificarColor('verde')"></div>
+      <div id="azul" class="boton-color" onclick="verificarColor('azul')"></div>
+      <div id="amarillo" class="boton-color" onclick="verificarColor('amarillo')"></div>
+    </div>
+    <p id="mensaje"></p>
+  </main>
+  <footer>
+    <p>&copy; 2024 juegos.com. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
